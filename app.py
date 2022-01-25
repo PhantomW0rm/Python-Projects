@@ -1,3 +1,3 @@
 import boss
 
-boss.bad_boss("Bill Steves")
+boss.not_a_boss("Bill Steves")
