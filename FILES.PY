@@ -1,13 +1,17 @@
-file = open("filename.txt", "r")
+#file = open("filename.txt", "r")
 
-outfile = ""
+#outfile = ""
 
-for line in range(1, 10):
-    if line % 2 == 0:
-        outfile += file.readline()
-    else:
-        file.readline()
+#for line in range(1, 10):
+#    if line % 2 == 0:
+#        outfile += file.readline()
+#    else:
+#        file.readline()
+#
+#file = open("filename.txt", "w")
+#file.write(outfile)
+#file.close()
 
-file = open("filename.txt", "w")
-file.write(outfile)
-file.close()
+f = open("teams.txt", mode = "w")
+f.write("This text is written in python")
+f.close
