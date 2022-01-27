@@ -7,9 +7,8 @@
 #    print("You have the precise amount of money")
 #if item_price > user_funds:
 #    print("Sorry you don't have enough money")
-import pdb
+
 def product(n):
-    pdb.set_trace()
     total == 1
 for n in n:
         total *= i
